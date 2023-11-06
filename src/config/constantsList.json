@@ -1,0 +1,9 @@
+{
+    "app_version": "1.0",
+    "app_name": "Fortress",
+    "app_author": "Mberev Nicholas",
+    "app_created_date": "October 26, 2023",
+    "cache_time": 5,
+    "cache_prefix": "_cache",
+    "cached_in_text": "minute"
+}

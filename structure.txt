@@ -1,0 +1,7 @@
+// App starts with the AppNavigationContainer
+    // This contains all the stack navigations of the app
+// Followed by theme provider that decides the colors and background of the app
+// Followed by SafeAreaViewWrapper which houses all the screens from navigations
+// then conditions for adding when loggedin or logged out. that's determining which screen to show
+// All screens contain headers or customized headers from navigation 
+// Socialize
