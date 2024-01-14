@@ -1,6 +1,7 @@
-import React, { useMemo, useContext } from 'react';
+import React, { useMemo, useContext }       from 'react';
 import { Animated, View, TouchableOpacity } from 'react-native';
 import { AppIcon }                          from '../../assets/style/AppIcons';
+import { convertFirstLetter }               from '../../helpers/helpers';
 import useStyle from '../../assets/style/style';
 import { Theme } from '../../contexts/theme';
 
@@ -51,8 +52,11 @@ export const  HomeTabBar = ({ state, descriptors, navigation, position }) => {
                 case 'community':{
                     return <AppIcon name='account-group' size={24} />
                 }
+                case 'ai':{
+                  return "Ask AI"
+                }
                 default: {
-                    return label;
+                    return convertFirstLetter(label);
                 }
             }
         }, [label]);
@@ -81,7 +85,7 @@ export const  HomeTabBar = ({ state, descriptors, navigation, position }) => {
                 ...styles.generalTextstyle,
                 color: currentTheme.values.lightColor,
                 textAlign: "center",
-                fontSize: 16 
+                fontSize: 16
                 }}>
               {printLabel}
             </Animated.Text>

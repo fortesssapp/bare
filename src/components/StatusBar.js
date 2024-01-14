@@ -1,26 +1,26 @@
 import React, { useContext } from 'react';
-import { StatusBar as NativeStatusBar } from 'react-native';
+import { StatusBar as NativeStatusBar, SafeAreaView, View } from 'react-native';
 import { Theme } from '../contexts/theme';
+import useStyles from './inputs/styles/Fstyles';
+
+const CustomStatusBar = ({backgroundColor, ...props}) => {
+  const { statusBarHeight }  = useStyles();
+  return (
+  <View style={[statusBarHeight, { backgroundColor }]}>
+    <NativeStatusBar translucent backgroundColor={backgroundColor} {...props} />
+  </View>
+  )
+}
 
 const StatusBar = () => {
   const { current, currentTheme } = useContext(Theme);
-
-  // Customize the status bar style based on the selected theme
-  const getStatusBarStyle = () => {
-    if (current === 'dark') {
-      return 'light-content'; // Use light content style for the dark theme
-    } else {
-      return 'dark-content'; // Use dark content style for the light theme
-    }
-  };
-
-  // console.log(current, "current ", theme.values.mainColor);
-
   return (
-    <NativeStatusBar
-      barStyle={getStatusBarStyle()}
+    <CustomStatusBar
+      hidden={false}
+      animated={true}
+      barStyle={"light-content"}
       translucent={true}
-      backgroundColor={(current === "dark") ? 'transparent': currentTheme.values.mainColor}
+      backgroundColor={(current === "dark") ? currentTheme.values.defaultBackground: currentTheme.values.mainColor}
     />
   );
 };

@@ -7,26 +7,17 @@ import { HomeMenu }         from "../../layouts/menus/homeMenu";
 
 // navigations
 import { HomeNavHeader }    from "../../layouts/menus/homeNav";
+import { DefaultNavHeader } from "../../layouts/menus/defaultNav";
 
 
-export const AppHeader = () => {
+export const AppHeader = ({ title, route, navigation }) => {
     const { currentRouteName } = useNavigator();
     const STYLES        = useStyle();
     const menuRef       = useRef();
 
     
     const DefaultContents = () => {
-        return (
-            <View style={STYLES.homeNavContainer}>
-             <View>
-                <TouchableOpacity onPress={() => menuRef.current.open()}>
-                    <AppIcon name="home"  /> 
-                    <HomeMenu ref={menuRef} />
-                </TouchableOpacity>
-            </View>
-            <Text style={{color: "white"}}>Route: {currentRouteName}</Text>
-            </View>
-        )
+        return (<DefaultNavHeader title={title} />)
     }
     
     

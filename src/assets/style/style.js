@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { StyleSheet, Dimensions, StatusBar } from "react-native";
+import { StyleSheet, Dimensions } from "react-native";
 import { Theme } from "../../contexts/theme";
 
 
@@ -25,10 +25,19 @@ export default function useStyle(){
             minHeight: Dimensions.get("window").height
         },
         frame: {
-            flex: 1
+            flex: 1,
+            position: "relative"
         },
         textColor: {
-            color: currentTheme.values.currentColor
+            color: currentTheme.values.currentColor,
+            fontFamily: fontFamily
+        },
+        routeTitleText: {
+            fontSize: currentTheme.values.fonts.large,
+            lineHeight: 34,
+            color: currentTheme.values.lightColor,
+            fontFamily: fontFamily,
+            fontWeight: "600"
         },
         logoTextStyle: {
             fontFamily: fontFamily,
@@ -38,7 +47,8 @@ export default function useStyle(){
         },
         generalTextstyle: {
             fontSize: 18,
-            fontWeight: "600"
+            fontWeight: "600",
+            fontFamily: currentTheme.values.fontRegular
         },
         iconsColor: currentTheme.values.iconsColor,
         mainButton:{
@@ -65,11 +75,10 @@ export default function useStyle(){
         },
         appNavContainer:{
             flex: 1,
-            minWidth: "100%",
+            width: "100%",
             minHeight: 57,
             maxHeight: 57,
             paddingHorizontal: 10,
-            marginTop: StatusBar.currentHeight,
             flexDirection: "row",
             alignItems: "center",
             justifyContent: "space-between",
@@ -91,7 +100,16 @@ export default function useStyle(){
             minHeight: 47,
             maxHeight: 47,
             flexDirection: "row",
-            alignItems: "center",
+            alignItems: "center", // change
+            justifyContent: "space-between"
+        },
+        defaultNavContainer:{
+            flex: 1,
+            minWidth: "100%",
+            minHeight: 47,
+            maxHeight: 47,
+            flexDirection: "row",
+            alignItems: "center", // change
             justifyContent: "space-between"
         },
         navIconsSection: {
@@ -99,7 +117,81 @@ export default function useStyle(){
             alignItems: "center",
             justifyContent: "space-between",
             paddingHorizontal: 15,
-            minWidth: "50%"
-        }
+            flex: 1,
+            //minWidth: "50%"
+        },
+        navIconsSectionDefault: {
+            flexDirection: "row",
+            alignItems: "center",
+            justifyContent: "flex-end",
+            paddingRight: 15,
+            flex: 1,
+            //minWidth: "50%"
+        },
+        horizontalDisplay: {
+            flex: 1,
+            flexDirection: "row",
+            justifyContent: "flex-start",
+            alignContent: "center"
+        },
+        iconWithTitle: {
+            flexDirection: "row",
+            justifyContent: "flex-start",
+            alignContent: "center"
+        },
+        /*weolcome screen*/
+        actionsContainer: {
+            flexDirection: "row",
+            alignItems: "center"
+        },
+        welcomeContent: {
+            justifyContent: "space-around",
+            flex: 1,
+            paddingHorizontal: 15
+        },
+        actionButtonContainer:{
+            width: "50%"
+        },
+        welcomeNote: {
+            paddingHorizontal: 30,
+            marginBottom: 30
+        },
+        welcomeNoteText:{
+            fontSize: currentTheme.values.fonts.large,
+            color: currentTheme.values.mainColor,
+            textAlign: "center"
+        },
+        welcomeLogo: {
+            alignContent: "center",
+            justifyContent: "center",
+            alignItems: "center",
+            maxHeight: 100,
+            position: "relative"
+        },
+        welcomeLogoStyle: {
+            maxHeight: 90,
+            maxWidth: 90,
+            borderRadius: 100,
+            position: "absolute",
+            left: "auto",
+            right: "auto",
+            top: 50
+        },
+        /** Welcome screen ends**/
+        /**  country
+         * 
+         * shadowColor: '#000',
+            shadowOffset: { width: 0, height: 2 },
+            shadowOpacity: 0.5,
+            shadowRadius: 2,
+            elevation: 2,
+         * 
+         *  **/
+        countryContent: {
+            justifyContent: "space-around",
+            flex: 1,
+            paddingHorizontal: 15,
+            flexDirection: "column"
+        },
     });
 }

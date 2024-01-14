@@ -11,6 +11,7 @@ export const Theme = React.createContext({
             currentColor: "#000e19",
             currentBackground: "#e6f3ff",
             mainColor: "#0262b1",
+            placeholders: "#555657",
             lightColor: "#81c6fe",
             iconsColor: "#81c6fe",
             danger: "#cc1a1a",
@@ -20,7 +21,8 @@ export const Theme = React.createContext({
             fontBold: "ProximaNova-Bold",
             fontLight: "ProximaNova-Light",
             fontSemi: "ProximaNova-SemiBold",
-            fontExtra: "ProximaNova-Extrabld"
+            fontExtra: "ProximaNova-Extrabld",
+            fonts: {large: 20, medium: 16, small: 12}
         }
     },
     themes: [],
@@ -41,6 +43,7 @@ Theme.Provider.propTypes = {
             currentColor: PropTypes.string.isRequired,
             currentBackground: PropTypes.string.isRequired,
             mainColor: PropTypes.string.isRequired,
+            placeholdes: PropTypes.string,
             lightColor: PropTypes.string.isRequired,
             iconsColor: PropTypes.string.isRequired,
             danger: PropTypes.string.isRequired,
@@ -51,6 +54,11 @@ Theme.Provider.propTypes = {
             fontLight: PropTypes.string.isRequired,
             fontSemi: PropTypes.string.isRequired,
             fontExtra: PropTypes.string.isRequired,
+            fonts: PropTypes.shape({
+                small: PropTypes.number,
+                medium: PropTypes.number,
+                large: PropTypes.number
+            })
         }).isRequired
       }).isRequired,
       themes: PropTypes.array.isRequired,

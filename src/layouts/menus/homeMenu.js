@@ -37,6 +37,11 @@ import useStyle from '../../assets/style/style';
             onSelect={() => navigate.navigate(routes.SIGNIN)} 
             text='Login' 
           />
+          <MenuOption
+            customStyles={{optionText: styles.generalTextstyle, optionWrapper: {marginVertical: 8}}}  
+            onSelect={() => navigate.navigate(routes.TESTS)} 
+            text='Tests' 
+          />
         </MenuOptions>
       </Menu></View>);
   });

@@ -1,47 +1,76 @@
 import React, { useContext } from "react";
-import { View, Text, Button } from "react-native";
-import { Theme } from "../contexts/theme";
-import useStyle from "../assets/style/style";
-import { AppHeader } from "../components/HOC/AppHeader";
-import { SafeAreaViewWrapper } from "../components/HOC/SafeAreaViewWrapper";
+import { View, Text, Button, StyleSheet } from "react-native";
+import { Theme }                from "../contexts/theme";
+import useStyle                 from "../assets/style/style";
+import { AppHeader }            from "../components/HOC/AppHeader";
+import { SafeAreaViewWrapper }  from "../components/HOC/SafeAreaViewWrapper";
+import useConstants             from "../hooks/useConstants";
+import routes                   from "../helpers/routes";
 
 export const RegisterScreen = ({ navigation, route }) => {
-    const { current, change} = useContext(Theme);
+    const { current, currentTheme } = useContext(Theme);
     const STYLES = useStyle();
-    const toggleTheme = () => {
-        change( (current === "light") ? "dark": "light");
-    }
-    const login = () => {
-        navigation.navigate("LOGIN", {location: "LOGIN"});
-    }
-    const gotohome = () => {
-        navigation.navigate("HOME", {location: "HOME"});
-    }
+    const constants = useConstants();
 
     return(
         <SafeAreaViewWrapper>
-            <AppHeader navigation={navigation} route={route}/>
-            <View style={[STYLES.homeContainer]}>
-                <Text style={[STYLES.HomeText, STYLES.textColor]}>Register</Text>
-                <Button 
-                    onPress={login} 
-                    style={STYLES.mainButton} 
-                    color={STYLES.mainButton.backgroundColor} 
-                    title='Login to app' 
-                />
-                 <Button 
-                    onPress={gotohome} 
-                    style={STYLES.mainButton} 
-                    color={STYLES.mainButton.backgroundColor} 
-                    title='Back Home' 
-                />
-                <Button 
-                    onPress={toggleTheme} 
-                    style={STYLES.mainButton} 
-                    color={STYLES.mainButton.backgroundColor} 
-                    title='Change Theme' 
-                />
+            <AppHeader navigation={navigation} route={route} title={constants.sign_up}/>
+            <View style={[STYLES.homeContainer, styles.registerContent]}>
+
+                <View style={styles.registerNote}>
+                    <Text textBreakStrategy="balanced" style={[STYLES.HomeText, STYLES.textColor, styles.registerTextStyle]}> {constants.sign_up_note}</Text>
+                </View>
+                
+
+                <View style={styles.registerButtonContainer}>
+                    <Button 
+                        onPress={() => navigation.navigate(routes.SIGNUP)} 
+                        style={STYLES.mainButton} 
+                        color={currentTheme.values.mainColor} 
+                        title='Sign Up' 
+                    />
+                </View>
+
+                <View style={STYLES.actionsContainer}>
+                    <View style={STYLES.actionButtonContainer}>
+                        <Button 
+                            onPress={() => navigation.navigate(routes.SIGNUP)} 
+                            style={STYLES.mainButton} 
+                            color={currentTheme.values.mainColor} 
+                            title='Sign Up' 
+                        />
+                    </View>
+                    <View style={STYLES.actionButtonContainer}>
+                        <Button 
+                            onPress={() => navigation.navigate(routes.SIGNIN)} 
+                            style={STYLES.mainButton} 
+                            color={currentTheme.values.currentColor} 
+                            title='Sign In' 
+                        />
+                    </View>
+                </View>
             </View>
         </SafeAreaViewWrapper>
     )
 } 
+
+const styles = StyleSheet.create({
+    
+    registerContent: {
+        flex: 1,
+        flexDirection: "column",
+        justifyContent: "space-around"
+
+    },
+    registerNote: {
+        paddingHorizontal: 30,
+        marginBottom: 30
+    },
+    registerButtonContainer: {
+        marginBottom: 30
+    },
+    registerTextStyle: {
+        textAlign: "center"
+    }
+    
+});

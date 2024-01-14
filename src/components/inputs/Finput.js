@@ -11,7 +11,12 @@ const Finput = forwardRef((props, ref) => {
         leftIcon,
         rightIcon,
         validation,
+        rightIconSize = 24,
+        leftIconSize = 24,
+        multiline=false,
         onValueChange,
+        inputLabel="Type here",
+        inputStyle={},
         ...otherProps
     } = props;
 
@@ -41,6 +46,9 @@ const Finput = forwardRef((props, ref) => {
             if (validation.maxLength && value.length > validation.maxLength) {
                 return false;
             }
+            if (validation.required && value.length === 0) {
+                return false;
+            }
 
             if (validation.validNumber && isNaN(Number(value))) {
                 return false;
@@ -68,25 +76,29 @@ const Finput = forwardRef((props, ref) => {
 
     useImperativeHandle(ref, () => ({
         getValue: () => value,
+        removeValue: () => setValue("")
     }));
 
     return (
-        <View style={[styles.container, !isValid && styles.errorBorder, style]}>
-            {leftIcon && (
-                <AppIcon name={leftIcon} size={24} style={styles.icon} />
+        <View style={[styles.container, !isValid && styles.errorBorder, style, (multiline? { minHeight: 120, maxHeight: 200 }: {})]}>
+            {(leftIcon && !multiline) && (
+                <AppIcon name={leftIcon} size={leftIconSize} style={styles.icon} />
             )}
 
             <TextInput
-                style={styles.input}
+                placeholder={inputLabel}
+                placeholderTextColor={styles.placeholders.color}
+                style={[styles.input, (multiline? { minHeight: 120, maxHeight: 200 }: {}), inputStyle]}
                 keyboardType={getKeyboardType()}
                 onChangeText={handleChange}
                 secureTextEntry={type === 'secure'}
                 value={value}
                 {...otherProps}
+                multiline={multiline}
             />
 
-            {rightIcon && (
-                <AppIcon name={leftIcon} size={24} style={styles.icon} />
+            {(rightIcon && !multiline) && (
+                <AppIcon name={rightIcon} size={rightIconSize} style={styles.iconr} />
             )}
         </View>
     );
@@ -97,6 +109,10 @@ Finput.propTypes = {
     type: PropTypes.oneOf(['number', 'text', 'phone', 'pin', 'secure']),
     leftIcon: PropTypes.string,
     rightIcon: PropTypes.string,
+    inputLabel: PropTypes.string.isRequired,
+    rightIconSize: PropTypes.number,
+    leftIconSize: PropTypes.number,
+    multiline: PropTypes.bool,
     validation: PropTypes.shape({
         validNumber: PropTypes.bool,
         maxLength: PropTypes.number,

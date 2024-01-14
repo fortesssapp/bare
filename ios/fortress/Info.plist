@@ -53,6 +53,16 @@
 		<string>proximanova-light.ttf</string>
 		<string>proximanova-regular.ttf</string>
 		<string>proximanova-semibold.ttf</string>
+		<string>ProximaNova-Bold.otf</string>
+		<string>ProximaNova-Extrabld.otf</string>
+		<string>Proximanova-Light.otf</string>
+		<string>Proximanova-Regular.otf</string>
+		<string>Proximanova-Semibold.otf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>remote-notification</string>
 	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen.storyboard</string>
@@ -68,5 +78,14 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+		<key>CFBundleURLSchemes</key>
+		<array>
+			<string>app-1-175369578835-ios-51ec44e8a00ca6776499a6</string>
+		</array>
+		</dict>
+	</array>
 </dict>
 </plist>

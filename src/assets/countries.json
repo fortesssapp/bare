@@ -1,0 +1,1262 @@
+[
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "AF",
+        "iso3_code": "AFG",
+        "label_en": "Afghanistan",
+        "onu_code": "004"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "AL",
+        "iso3_code": "ALB",
+        "label_en": "Albania",
+        "onu_code": "008"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "AS",
+        "iso3_code": "ASM",
+        "label_en": "American Samoa",
+        "onu_code": "016"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "AI",
+        "iso3_code": "AIA",
+        "label_en": "Anguilla",
+        "onu_code": "660"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "AG",
+        "iso3_code": "ATG",
+        "label_en": "Antigua and Barbuda",
+        "onu_code": "028"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "AM",
+        "iso3_code": "ARM",
+        "label_en": "Armenia",
+        "onu_code": "051"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "AW",
+        "iso3_code": "ABW",
+        "label_en": "Aruba",
+        "onu_code": "533"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "AU",
+        "iso3_code": "AUS",
+        "label_en": "Australia",
+        "onu_code": "036"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "AT",
+        "iso3_code": "AUT",
+        "label_en": "Austria",
+        "onu_code": "040"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "AZ",
+        "iso3_code": "AZE",
+        "label_en": "Azerbaijan",
+        "onu_code": "031"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "BS",
+        "iso3_code": "BHS",
+        "label_en": "Bahamas",
+        "onu_code": "044"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "BH",
+        "iso3_code": "BHR",
+        "label_en": "Bahrain",
+        "onu_code": "048"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "BD",
+        "iso3_code": "BGD",
+        "label_en": "Bangladesh",
+        "onu_code": "050"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "BB",
+        "iso3_code": "BRB",
+        "label_en": "Barbados",
+        "onu_code": "052"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "BY",
+        "iso3_code": "BLR",
+        "label_en": "Belarus",
+        "onu_code": "112"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "BZ",
+        "iso3_code": "BLZ",
+        "label_en": "Belize",
+        "onu_code": "084"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "BM",
+        "iso3_code": "BMU",
+        "label_en": "Bermuda",
+        "onu_code": "060"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "BT",
+        "iso3_code": "BTN",
+        "label_en": "Bhutan",
+        "onu_code": "064"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "BA",
+        "iso3_code": "BIH",
+        "label_en": "Bosnia and Herzegovina",
+        "onu_code": "070"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "BW",
+        "iso3_code": "BWA",
+        "label_en": "Botswana",
+        "onu_code": "072"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "VG",
+        "iso3_code": "VGB",
+        "label_en": "British Virgin Islands",
+        "onu_code": "092"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "BN",
+        "iso3_code": "BRN",
+        "label_en": "Brunei Darussalam",
+        "onu_code": "096"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "BG",
+        "iso3_code": "BGR",
+        "label_en": "Bulgaria",
+        "onu_code": "100"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "KH",
+        "iso3_code": "KHM",
+        "label_en": "Cambodia",
+        "onu_code": "116"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "CA",
+        "iso3_code": "CAN",
+        "label_en": "Canada",
+        "onu_code": "124"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "KY",
+        "iso3_code": "CYM",
+        "label_en": "Cayman Islands",
+        "onu_code": "136"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "JG",
+        "iso3_code": "CHA",
+        "label_en": "Channel Islands",
+        "onu_code": "830"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "CN",
+        "iso3_code": "CHN",
+        "label_en": "China",
+        "onu_code": "156"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "CK",
+        "iso3_code": "COK",
+        "label_en": "Cook Islands",
+        "onu_code": "184"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "HR",
+        "iso3_code": "HRV",
+        "label_en": "Croatia",
+        "onu_code": "191"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "CY",
+        "iso3_code": "CYP",
+        "label_en": "Cyprus",
+        "onu_code": "196"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "CZ",
+        "iso3_code": "CZE",
+        "label_en": "Czech Republic",
+        "onu_code": "203"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "C1",
+        "iso3_code": "CS1",
+        "label_en": "Czechoslovakia",
+        "onu_code": "200"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "DK",
+        "iso3_code": "DNK",
+        "label_en": "Denmark",
+        "onu_code": "208"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "DM",
+        "iso3_code": "DMA",
+        "label_en": "Dominica",
+        "onu_code": "212"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "EG",
+        "iso3_code": "EGY",
+        "label_en": "Egypt",
+        "onu_code": "818"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "ER",
+        "iso3_code": "ERI",
+        "label_en": "Eritrea",
+        "onu_code": "232"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "EE",
+        "iso3_code": "EST",
+        "label_en": "Estonia",
+        "onu_code": "233"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "ET",
+        "iso3_code": "ETH",
+        "label_en": "Ethiopia",
+        "onu_code": "231"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "E1",
+        "iso3_code": "ET1",
+        "label_en": "Ethiopia (including Eritrea)",
+        "onu_code": "230"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "FO",
+        "iso3_code": "FRO",
+        "label_en": "Faeroe Islands",
+        "onu_code": "234"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "FK",
+        "iso3_code": "FLK",
+        "label_en": "Falkland Islands (Malvinas)",
+        "onu_code": "238"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "FJ",
+        "iso3_code": "FJI",
+        "label_en": "Fiji",
+        "onu_code": "242"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "FI",
+        "iso3_code": "FIN",
+        "label_en": "Finland",
+        "onu_code": "246"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "GM",
+        "iso3_code": "GMB",
+        "label_en": "Gambia",
+        "onu_code": "270"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "GE",
+        "iso3_code": "GEO",
+        "label_en": "Georgia",
+        "onu_code": "268"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "DE",
+        "iso3_code": "DEU",
+        "label_en": "Germany",
+        "onu_code": "276"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "D3",
+        "iso3_code": "DE3",
+        "label_en": "Germany, 5 new Länder and Berlin (East)",
+        "onu_code": "277"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "D2",
+        "iso3_code": "DE2",
+        "label_en": "Germany, Fed. Rep. of before 3.10.1990",
+        "onu_code": "280"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "D1",
+        "iso3_code": "DE1",
+        "label_en": "Germany, The former German Dem. Rep.",
+        "onu_code": "278"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "GH",
+        "iso3_code": "GHA",
+        "label_en": "Ghana",
+        "onu_code": "288"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "GI",
+        "iso3_code": "GIB",
+        "label_en": "Gibraltar",
+        "onu_code": "292"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "GR",
+        "iso3_code": "GRC",
+        "label_en": "Greece",
+        "onu_code": "300"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "GL",
+        "iso3_code": "GRL",
+        "label_en": "Greenland",
+        "onu_code": "304"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "GD",
+        "iso3_code": "GRD",
+        "label_en": "Grenada",
+        "onu_code": "308"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "GU",
+        "iso3_code": "GUM",
+        "label_en": "Guam",
+        "onu_code": "316"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "GG",
+        "iso3_code": "GGY",
+        "label_en": "Guernsey",
+        "onu_code": "831"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "GY",
+        "iso3_code": "GUY",
+        "label_en": "Guyana",
+        "onu_code": "328"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "HK",
+        "iso3_code": "HKG",
+        "label_en": "Hong Kong, China",
+        "onu_code": "344"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "HU",
+        "iso3_code": "HUN",
+        "label_en": "Hungary",
+        "onu_code": "348"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "IS",
+        "iso3_code": "ISL",
+        "label_en": "Iceland",
+        "onu_code": "352"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "IN",
+        "iso3_code": "IND",
+        "label_en": "India",
+        "onu_code": "356"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "ID",
+        "iso3_code": "IDN",
+        "label_en": "Indonesia",
+        "onu_code": "360"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "IR",
+        "iso3_code": "IRN",
+        "label_en": "Iran, Islamic Rep. of",
+        "onu_code": "364"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "IQ",
+        "iso3_code": "IRQ",
+        "label_en": "Iraq",
+        "onu_code": "368"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "IE",
+        "iso3_code": "IRL",
+        "label_en": "Ireland",
+        "onu_code": "372"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "IM",
+        "iso3_code": "IMN",
+        "label_en": "Isle of Man",
+        "onu_code": "833"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "IL",
+        "iso3_code": "ISR",
+        "label_en": "Israel",
+        "onu_code": "376"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "IT",
+        "iso3_code": "ITA",
+        "label_en": "Italy",
+        "onu_code": "380"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "JM",
+        "iso3_code": "JAM",
+        "label_en": "Jamaica",
+        "onu_code": "388"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "JP",
+        "iso3_code": "JPN",
+        "label_en": "Japan",
+        "onu_code": "392"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "JE",
+        "iso3_code": "JEY",
+        "label_en": "Jersey",
+        "onu_code": "832"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "JO",
+        "iso3_code": "JOR",
+        "label_en": "Jordan",
+        "onu_code": "400"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "KZ",
+        "iso3_code": "KAZ",
+        "label_en": "Kazakhstan",
+        "onu_code": "398"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "KE",
+        "iso3_code": "KEN",
+        "label_en": "Kenya",
+        "onu_code": "404"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "KI",
+        "iso3_code": "KIR",
+        "label_en": "Kiribati",
+        "onu_code": "296"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "KP",
+        "iso3_code": "PRK",
+        "label_en": "Korea, Dem. People's Rep. of",
+        "onu_code": "408"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "KR",
+        "iso3_code": "KOR",
+        "label_en": "Korea, Republic of",
+        "onu_code": "410"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "KS",
+        "iso3_code": "KOS",
+        "label_en": "Kosovo",
+        "onu_code": "808"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "KW",
+        "iso3_code": "KWT",
+        "label_en": "Kuwait",
+        "onu_code": "414"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "KG",
+        "iso3_code": "KGZ",
+        "label_en": "Kyrgyzstan",
+        "onu_code": "417"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "LA",
+        "iso3_code": "LAO",
+        "label_en": "Lao People's Dem. Rep.",
+        "onu_code": "418"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "LV",
+        "iso3_code": "LVA",
+        "label_en": "Latvia",
+        "onu_code": "428"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "LS",
+        "iso3_code": "LSO",
+        "label_en": "Lesotho",
+        "onu_code": "426"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "LR",
+        "iso3_code": "LBR",
+        "label_en": "Liberia",
+        "onu_code": "430"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "LY",
+        "iso3_code": "LBY",
+        "label_en": "Libyan Arab Jamahiriya",
+        "onu_code": "434"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "LI",
+        "iso3_code": "LIE",
+        "label_en": "Liechtenstein",
+        "onu_code": "438"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "LT",
+        "iso3_code": "LTU",
+        "label_en": "Lithuania",
+        "onu_code": "440"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "MO",
+        "iso3_code": "MAC",
+        "label_en": "Macau, China",
+        "onu_code": "446"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "MK",
+        "iso3_code": "MKD",
+        "label_en": "Macedonia, The former Yugoslav Rep. of",
+        "onu_code": "807"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "MW",
+        "iso3_code": "MWI",
+        "label_en": "Malawi",
+        "onu_code": "454"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "MY",
+        "iso3_code": "MYS",
+        "label_en": "Malaysia",
+        "onu_code": "458"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "M1",
+        "iso3_code": "MY1",
+        "label_en": "Malaysia: Peninsular Malaysia",
+        "onu_code": "456"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "M2",
+        "iso3_code": "MY2",
+        "label_en": "Malaysia: Sabah",
+        "onu_code": "457"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "M3",
+        "iso3_code": "MY3",
+        "label_en": "Malaysia: Sarawak",
+        "onu_code": "459"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "MV",
+        "iso3_code": "MDV",
+        "label_en": "Maldives",
+        "onu_code": "462"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "MT",
+        "iso3_code": "MLT",
+        "label_en": "Malta",
+        "onu_code": "470"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "MH",
+        "iso3_code": "MHL",
+        "label_en": "Marshall Islands",
+        "onu_code": "584"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "MU",
+        "iso3_code": "MUS",
+        "label_en": "Mauritius",
+        "onu_code": "480"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "MD",
+        "iso3_code": "MDA",
+        "label_en": "Moldova, Republic of",
+        "onu_code": "498"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "MN",
+        "iso3_code": "MNG",
+        "label_en": "Mongolia",
+        "onu_code": "496"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "ME",
+        "iso3_code": "MNE",
+        "label_en": "Montenegro",
+        "onu_code": "499"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "MS",
+        "iso3_code": "MSR",
+        "label_en": "Montserrat",
+        "onu_code": "500"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "MZ",
+        "iso3_code": "MOZ",
+        "label_en": "Mozambique",
+        "onu_code": "508"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "MM",
+        "iso3_code": "MMR",
+        "label_en": "Myanmar",
+        "onu_code": "104"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "NA",
+        "iso3_code": "NAM",
+        "label_en": "Namibia",
+        "onu_code": "516"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "NR",
+        "iso3_code": "NRU",
+        "label_en": "Nauru",
+        "onu_code": "520"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "NP",
+        "iso3_code": "NPL",
+        "label_en": "Nepal",
+        "onu_code": "524"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "NL",
+        "iso3_code": "NLD",
+        "label_en": "Netherlands",
+        "onu_code": "528"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "AN",
+        "iso3_code": "ANT",
+        "label_en": "Netherlands Antilles",
+        "onu_code": "530"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "NZ",
+        "iso3_code": "NZL",
+        "label_en": "New Zealand",
+        "onu_code": "554"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "NG",
+        "iso3_code": "NGA",
+        "label_en": "Nigeria",
+        "onu_code": "566"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "NU",
+        "iso3_code": "NIU",
+        "label_en": "Niue",
+        "onu_code": "570"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "NF",
+        "iso3_code": "NFK",
+        "label_en": "Norfolk Island",
+        "onu_code": "574"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "MP",
+        "iso3_code": "MNP",
+        "label_en": "Northern Mariana Islands",
+        "onu_code": "580"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "NO",
+        "iso3_code": "NOR",
+        "label_en": "Norway",
+        "onu_code": "578"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "OM",
+        "iso3_code": "OMN",
+        "label_en": "Oman",
+        "onu_code": "512"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "PK",
+        "iso3_code": "PAK",
+        "label_en": "Pakistan",
+        "onu_code": "586"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "PW",
+        "iso3_code": "PLW",
+        "label_en": "Palau",
+        "onu_code": "585"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "PG",
+        "iso3_code": "PNG",
+        "label_en": "Papua New Guinea",
+        "onu_code": "598"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "PH",
+        "iso3_code": "PHL",
+        "label_en": "Philippines",
+        "onu_code": "608"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "PL",
+        "iso3_code": "POL",
+        "label_en": "Poland",
+        "onu_code": "616"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "PR",
+        "iso3_code": "PRI",
+        "label_en": "Puerto Rico",
+        "onu_code": "630"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "QA",
+        "iso3_code": "QAT",
+        "label_en": "Qatar",
+        "onu_code": "634"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "RU",
+        "iso3_code": "RUS",
+        "label_en": "Russian Federation",
+        "onu_code": "643"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "RW",
+        "iso3_code": "RWA",
+        "label_en": "Rwanda",
+        "onu_code": "646"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "SH",
+        "iso3_code": "SHN",
+        "label_en": "Saint Helena",
+        "onu_code": "654"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "KN",
+        "iso3_code": "KNA",
+        "label_en": "Saint Kitts and Nevis",
+        "onu_code": "659"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "LC",
+        "iso3_code": "LCA",
+        "label_en": "Saint Lucia",
+        "onu_code": "662"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "VC",
+        "iso3_code": "VCT",
+        "label_en": "Saint Vincent and the Grenadines",
+        "onu_code": "670"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "WS",
+        "iso3_code": "WSM",
+        "label_en": "Samoa",
+        "onu_code": "882"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "SA",
+        "iso3_code": "SAU",
+        "label_en": "Saudi Arabia",
+        "onu_code": "682"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "RS",
+        "iso3_code": "SRB",
+        "label_en": "Serbia",
+        "onu_code": "688"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "CS",
+        "iso3_code": "SCG",
+        "label_en": "Serbia and Montenegro",
+        "onu_code": "891"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "SC",
+        "iso3_code": "SYC",
+        "label_en": "Seychelles",
+        "onu_code": "690"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "SL",
+        "iso3_code": "SLE",
+        "label_en": "Sierra Leone",
+        "onu_code": "694"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "SG",
+        "iso3_code": "SGP",
+        "label_en": "Singapore",
+        "onu_code": "702"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "SK",
+        "iso3_code": "SVK",
+        "label_en": "Slovakia",
+        "onu_code": "703"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "SI",
+        "iso3_code": "SVN",
+        "label_en": "Slovenia",
+        "onu_code": "705"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "SB",
+        "iso3_code": "SLB",
+        "label_en": "Solomon Islands",
+        "onu_code": "090"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "SO",
+        "iso3_code": "SOM",
+        "label_en": "Somalia",
+        "onu_code": "706"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "ZA",
+        "iso3_code": "ZAF",
+        "label_en": "South Africa",
+        "onu_code": "710"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "SS",
+        "iso3_code": "SSD",
+        "label_en": "South Sudan, The Republic of",
+        "onu_code": "728"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "LK",
+        "iso3_code": "LKA",
+        "label_en": "Sri Lanka",
+        "onu_code": "144"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "SD",
+        "iso3_code": "SDN",
+        "label_en": "Sudan, The Republic of",
+        "onu_code": "736"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "SR",
+        "iso3_code": "SUR",
+        "label_en": "Suriname",
+        "onu_code": "740"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "SZ",
+        "iso3_code": "SWZ",
+        "label_en": "Swaziland",
+        "onu_code": "748"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "SE",
+        "iso3_code": "SWE",
+        "label_en": "Sweden",
+        "onu_code": "752"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "SY",
+        "iso3_code": "SYR",
+        "label_en": "Syrian Arab Republic",
+        "onu_code": "760"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "TW",
+        "iso3_code": "TWN",
+        "label_en": "Taiwan, China",
+        "onu_code": "158"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "TJ",
+        "iso3_code": "TJK",
+        "label_en": "Tajikistan",
+        "onu_code": "762"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "T1",
+        "iso3_code": "TZ1",
+        "label_en": "Tanzania (Tanganyika)",
+        "onu_code": "835"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "T2",
+        "iso3_code": "TZ2",
+        "label_en": "Tanzania (Zanzibar)",
+        "onu_code": "836"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "TZ",
+        "iso3_code": "TZA",
+        "label_en": "Tanzania, United Republic of",
+        "onu_code": "834"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "TH",
+        "iso3_code": "THA",
+        "label_en": "Thailand",
+        "onu_code": "764"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "TL",
+        "iso3_code": "TLS",
+        "label_en": "Timor-Leste",
+        "onu_code": "626"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "TK",
+        "iso3_code": "TKL",
+        "label_en": "Tokelau",
+        "onu_code": "772"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "TO",
+        "iso3_code": "TON",
+        "label_en": "Tonga",
+        "onu_code": "776"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "TT",
+        "iso3_code": "TTO",
+        "label_en": "Trinidad and Tobago",
+        "onu_code": "780"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "TR",
+        "iso3_code": "TUR",
+        "label_en": "Turkey",
+        "onu_code": "792"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "TM",
+        "iso3_code": "TKM",
+        "label_en": "Turkmenistan",
+        "onu_code": "795"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "TC",
+        "iso3_code": "TCA",
+        "label_en": "Turks and Caicos Islands",
+        "onu_code": "796"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "TV",
+        "iso3_code": "TUV",
+        "label_en": "Tuvalu",
+        "onu_code": "798"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "UG",
+        "iso3_code": "UGA",
+        "label_en": "Uganda",
+        "onu_code": "800"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "UA",
+        "iso3_code": "UKR",
+        "label_en": "Ukraine",
+        "onu_code": "804"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "AE",
+        "iso3_code": "ARE",
+        "label_en": "United Arab Emirates",
+        "onu_code": "784"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "GB",
+        "iso3_code": "GBR",
+        "label_en": "United Kingdom",
+        "onu_code": "826"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "US",
+        "iso3_code": "USA",
+        "label_en": "United States",
+        "onu_code": "840"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "SU",
+        "iso3_code": "URS",
+        "label_en": "USSR",
+        "onu_code": "810"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "UZ",
+        "iso3_code": "UZB",
+        "label_en": "Uzbekistan",
+        "onu_code": "860"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "VU",
+        "iso3_code": "VUT",
+        "label_en": "Vanuatu",
+        "onu_code": "548"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "VN",
+        "iso3_code": "VNM",
+        "label_en": "Viet Nam",
+        "onu_code": "704"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "VI",
+        "iso3_code": "VIR",
+        "label_en": "Virgin Islands (US)",
+        "onu_code": "850"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "PS",
+        "iso3_code": "PSE",
+        "label_en": "West Bank and Gaza Strip",
+        "onu_code": "275"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "YE",
+        "iso3_code": "YEM",
+        "label_en": "Yemen",
+        "onu_code": "887"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "Y1",
+        "iso3_code": "YE1",
+        "label_en": "Yemen, The former Arab Rep. of",
+        "onu_code": "886"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "Y2",
+        "iso3_code": "YE2",
+        "label_en": "Yemen, The former Democratic",
+        "onu_code": "720"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "Y3",
+        "iso3_code": "YU1",
+        "label_en": "Yugoslavia, The former Socialist Fed. Rep. of",
+        "onu_code": "890"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "ZM",
+        "iso3_code": "ZMB",
+        "label_en": "Zambia",
+        "onu_code": "894"
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "ZW",
+        "iso3_code": "ZWE",
+        "label_en": "Zimbabwe",
+        "onu_code": "716"
+    }
+]

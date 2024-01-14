@@ -11,6 +11,7 @@ const Fbutton = forwardRef(({
     color,
     textColor,
     fluid,
+    buttonStyle={},
     ...otherProps
 }, ref) => {
     const gradientColors = [
@@ -29,11 +30,11 @@ const Fbutton = forwardRef(({
         >
             <LinearGradient
                 colors={gradientColors}
-                style={[styles.button, fluid && styles.fluidButton]}
+                style={[(fluid && styles.fluidButton), styles.button, buttonStyle]}
                 start={{ x: 0, y: 0 }}
                 end={{ x: 0, y: 1 }}
             >
-                <Text style={[styles.buttonText, { color: textColor }]}>
+                <Text style={[{...STYLES.generalTextstyle}, styles.buttonText, { color: textColor }]}>
                     {text}
                 </Text>
             </LinearGradient>
@@ -74,6 +75,7 @@ const styles = StyleSheet.create({
     },
     buttonText: {
         fontSize: 16,
+        fontWeight: "600"
     },
 });
 
@@ -84,6 +86,7 @@ Fbutton.propTypes = {
     color: PropTypes.string,
     textColor: PropTypes.string,
     fluid: PropTypes.bool,
+    buttonStyle: PropTypes.object
 };
 
 Fbutton.defaultProps = {

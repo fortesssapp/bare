@@ -22,7 +22,7 @@ export const HomeNavHeader = () =>{
 
     return(
         <View style={styles.homeNavContainer}>
-            <View>
+            <View style={{flex: 1}}>
                 <TouchableOpacity onPress={() => navigation.navigate(routes.HOME)}>
                     <Text style={styles.logoTextStyle}>{constants.app_name}</Text>
                 </TouchableOpacity>

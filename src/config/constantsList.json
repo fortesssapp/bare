@@ -5,5 +5,32 @@
     "app_created_date": "October 26, 2023",
     "cache_time": 5,
     "cache_prefix": "_cache",
-    "cached_in_text": "minute"
+    "cached_in_text": "minute",
+    "android_channel_title": "Fortress Android Channel",
+    "android_channel_desc": "Fortress Android Channel for local and remote notifications",
+    "welcome_note": "...at Fortress, we build a fortress around you so that you are always protected and secured.",
+    "sign_up": "Build your fortress",
+    "sign_up_note": "For the purpose of app functionality and identity, your phone number is surely and noninterchangeably saved with fortress", 
+    "sign_in": "Enter your fortress",
+    "select_country": "Select your country",
+    "country_note": "We need to know your country so that fortress can build to protect you.",
+    "enter_phone": "Your phone number",
+    "enter_phone_note": "Enter a valid phone number. Please note that for the purpose of app's functionality, your phone number will be saved to keep track of your identity.",
+    "enter_phone_code": "Enter phone code",
+    "enter_phone_code_note": "Enter code sent to your phone number. If you did not receive, please navigate back and try again.",
+    "enter_code_input": "Enter code sent to you",
+    "forgotten": "Reclain your fortress",
+    "access": "Protect your fortress",
+    "confirm": "Verify your identity",
+    "device_id_permission": "Fortress needs your device ID, in order to protect your account from unauthorised access. ",
+    "errors" : {
+        "no_country": "No country selected or invalid selection.",
+        "phone_entry_error": "No phone or invalid phone number entered!",
+        "country_first": "You must select country first",
+        "phone_exists": "Entered phone already exists. Try to recover account instead",
+        "code_not_sent": "could not send the authentication token, please try again.",
+        "invalid_code": "Attempted code is wrong.",
+        "code_null": "Looks like code was not sent, please try again",
+        "confirmation_made": "Confirmation failed. Try again."
+    }
 }

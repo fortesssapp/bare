@@ -1,7 +1,10 @@
 export default {
     HOME:       "HOME",
-    SIGNIN:     "LOGIN",
-    SIGNUP:     "REGISTER",
+    WELCOME:    "WELCOME",
+    SIGNIN:     "SIGNIN",
+    JOINCOUNTRY: "JOIN_COUNTRY",
+    JOINPHONE: "JOIN_PHONE",
+    SIGNUP:     "SIGNUP",
     PROFILE:    "PROFILE",
     CHATS:      "CHATS",
     AI:         "AI",
@@ -10,6 +13,7 @@ export default {
     CALLS:      "CALLS",
     CONTACTS:   "CONTACTS",
     FINANCE:    "FINANCES",
-    DATESOB:    "DATESOB"    
+    DATESOB:    "DATESOB",
+    TESTS:     "TEST"    
 
 }

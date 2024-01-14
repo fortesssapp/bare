@@ -29,3 +29,9 @@ console.log(originalText); // 'my message'
 
 // https://callstack.github.io/react-native-paper/docs/components/FAB/AnimatedFAB
 // react-native-paper
+// react-native-emoji-selector
+
+// App certificate signing request stored in the root folder of app
+
+// Add app check to protect your cloud resources
+// @react-native-firebase/app-check

@@ -9,9 +9,10 @@
 // Next step is adding drawer navigation feature // no need
 // Next step is Search menu meant for all different parts
 // Next is add the tab navigation feature // done
-// Next is add push notification // 
+// Next is add push notification // done
 // implement event handlers
 // app welcome screen  // done
 // app Icon // done
-// Create the settings file
-// implement system storage
+// Create the settings file // done
+// implement system storage // done
+// Add firebase auth

@@ -35,6 +35,7 @@ export const ThemeContextProvider = ({ children }) => {
             currentColor: "#000e19",
             currentBackground: "#e6f3ff",
             mainColor: "#0262b1",
+            placeholders: "#555657",
             lightColor: "#81c6fe",
             iconsColor: "#81c6fe",
             danger: "#cc1a1a",
@@ -44,7 +45,8 @@ export const ThemeContextProvider = ({ children }) => {
             fontBold: "ProximaNova-Bold",
             fontLight: "ProximaNova-Light",
             fontSemi: "ProximaNova-SemiBold",
-            fontExtra: "ProximaNova-Extrabld"
+            fontExtra: "ProximaNova-Extrabld",
+            fonts: {large: 20, medium: 16, small: 12}
         }},
         {   name: "dark",
             values:{
@@ -52,6 +54,7 @@ export const ThemeContextProvider = ({ children }) => {
             defaultBackground: "#000e19",
             currentColor: "#e6f3ff",
             currentBackground: "#000e19", 
+            placeholders: "#c5c6c7",
             iconsColor: "#81c6fe",
             mainColor: "#0262b1",
             lightColor: "#81c6fe",
@@ -62,7 +65,8 @@ export const ThemeContextProvider = ({ children }) => {
             fontBold: "ProximaNova-Bold",
             fontLight: "ProximaNova-Light",
             fontSemi: "ProximaNova-SemiBold",
-            fontExtra: "ProximaNova-Extrabld"
+            fontExtra: "ProximaNova-Extrabld",
+            fonts: {large: 20, medium: 16, small: 12}
         }},
         {   name: "green",
             values:{
@@ -70,6 +74,7 @@ export const ThemeContextProvider = ({ children }) => {
             defaultBackground: "#faffff",
             currentColor: "#031702",
             currentBackground: "#faffff", 
+            placeholders: "#5c5e5c",
             iconsColor: "#bff2ed",
             mainColor: "#0e7f74",
             lightColor: "#bff2ed",
@@ -80,7 +85,8 @@ export const ThemeContextProvider = ({ children }) => {
             fontBold: "ProximaNova-Bold",
             fontLight: "ProximaNova-Light",
             fontSemi: "ProximaNova-SemiBold",
-            fontExtra: "ProximaNova-Extrabld"
+            fontExtra: "ProximaNova-Extrabld",
+            fonts: {large: 20, medium: 16, small: 12}
         }}
     ]);
     const [currentTheme, setCurrentTheme] = useState({...themes[0]});

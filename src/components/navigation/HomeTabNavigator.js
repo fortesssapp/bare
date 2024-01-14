@@ -17,11 +17,11 @@ export const HomeTopTabsNavigator = () => {
         tabBarPosition='top'
         tabBar={HomeTabBar}
         >
-      <Tab.Screen name="Community"  component={CommunityScreen} />
-      <Tab.Screen name="Chats"      component={ChatsScreen} />
-      <Tab.Screen name="Updates"    component={UpdatesScreen} />
+      <Tab.Screen name="COMMUNITY"  component={CommunityScreen} />
+      <Tab.Screen name="CHATS"      component={ChatsScreen} />
+      <Tab.Screen name="UPDATES"    component={UpdatesScreen} />
       <Tab.Screen name="AI"         component={AiScreen} />
-      <Tab.Screen name="Calls"      component={CallsScreen} />
+      <Tab.Screen name="CALLS"      component={CallsScreen} />
     </Tab.Navigator>
   );
 }

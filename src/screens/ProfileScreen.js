@@ -21,7 +21,7 @@ export const ProfileScreen = ({ navigation, route }) => {
 
     return(
         <SafeAreaViewWrapper>
-            <AppHeader navigation={navigation} route={route}/>
+            <AppHeader navigation={navigation} route={route} title={"Profile"}/>
             <View style={[STYLES.homeContainer]}>
                 <Text style={[STYLES.HomeText, STYLES.textColor]}>Profile Screen</Text>
                 <Button 
