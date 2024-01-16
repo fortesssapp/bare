@@ -39,9 +39,13 @@ export const EnterPhoneNumberScreen = ({ navigation, route }) => {
 
     const setEnteredCode = (value) => {
         // set country
+<<<<<<< HEAD
         // console.log(value);
         setCode(value);
         //console.log(countries.find(c => c.title === value));
+=======
+        setCode(value);
+>>>>>>> 57b064d (First production and Staging commit)
     };
     // if sent code is updated, reload component
     useEffect(() => {
@@ -110,6 +114,10 @@ export const EnterPhoneNumberScreen = ({ navigation, route }) => {
 
                 toggleLoader(false);
                 setCodeSent(confirmation);
+<<<<<<< HEAD
+=======
+                if(inputRef.current) inputRef.current?.clear();
+>>>>>>> 57b064d (First production and Staging commit)
             }
             if (!fullPhone) {
                 showError(true, constants.errors.phone_entry_error);
@@ -159,7 +167,11 @@ export const EnterPhoneNumberScreen = ({ navigation, route }) => {
                 if(regData.uid){
                     data["uid"] = regData.uid;
                 }
+<<<<<<< HEAD
                 
+=======
+
+>>>>>>> 57b064d (First production and Staging commit)
                 if(regData.country){
                     data["country"] = regData.country;
                 }
