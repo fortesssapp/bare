@@ -1,0 +1,37 @@
+// ios font san fransisco
+// android  Proxima Nova
+// web open sans
+// consider the rules of 3 work life family | Work Money Family omne trium perfectum
+// use rnfirebase.io  // react-native firebase
+// add bills payments
+
+======== TO RUN APP ========
+// start app with
+npx react-native start   // to start server
+
+// run on any device
+npx react-native run-android  // android phones and tablets
+npx react-native run-ios // for ios phones and tablets
+npx react-native run-web  // for web  usage
+
+
+// cryptojs usage
+import CryptoJS from "react-native-crypto-js";
+ 
+// Encrypt
+let ciphertext = CryptoJS.AES.encrypt('my message', 'secret key 123').toString();
+ 
+// Decrypt
+let bytes  = CryptoJS.AES.decrypt(ciphertext, 'secret key 123');
+let originalText = bytes.toString(CryptoJS.enc.Utf8);
+ 
+console.log(originalText); // 'my message'
+
+// https://callstack.github.io/react-native-paper/docs/components/FAB/AnimatedFAB
+// react-native-paper
+// react-native-emoji-selector
+
+// App certificate signing request stored in the root folder of app
+
+// Add app check to protect your cloud resources
+// @react-native-firebase/app-check

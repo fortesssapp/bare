@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "175369578835",
+    "project_id": "fortress-7da96",
+    "storage_bucket": "fortress-7da96.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:175369578835:android:2bcf1a7f3d4707526499a6",
+        "android_client_info": {
+          "package_name": "com.fortress"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaav2hx-t9PoRGdz-exc5snRmrqJl4uhY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

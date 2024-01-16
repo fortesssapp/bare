@@ -1,0 +1,22 @@
+
+1. install react-native firebase app
+    npm install --save @react-native-firebase/app
+    npm install --save @react-native-firebase/messaging
+2. Generate certificate signing for the application
+3. Add team to project for dev in xcode
+4. install and configure firebase push notification  react-native-push-notification
+5. next is to create a useNotification file
+6. Add firebase auth
+7. create user's context
+16. Install react-native paper
+8. Create the auth navigator
+9. create the welcome to fortress route // done
+11. create the join Route // welcome
+12. create to authenticate route 
+13. create the SetPin route
+14. create the Recover roure
+15. Authenticate user in AppNavigatorcontainer
+16. Add basic to github and start actual development 
+15. create the notifications endpoint on firestore hosting // done!
+16. npm i react-native-device-info // for getting device info
+    
