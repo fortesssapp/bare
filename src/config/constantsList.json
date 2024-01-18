@@ -22,6 +22,7 @@
     "forgotten": "Reclain your fortress",
     "access": "Protect your fortress",
     "confirm": "Verify your identity",
+    "initializing_text": "initializing fortress",
     "device_id_permission": "Fortress needs your device ID, in order to protect your account from unauthorised access. ",
     "errors" : {
         "no_country": "No country selected or invalid selection.",
