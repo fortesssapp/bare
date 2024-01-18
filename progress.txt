@@ -15,4 +15,4 @@
 // app Icon // done
 // Create the settings file // done
 // implement system storage // done
-// Add firebase auth
+// Add firebase auth // done
