@@ -22,7 +22,9 @@
     "forgotten": "Reclain your fortress",
     "access": "Protect your fortress",
     "confirm": "Verify your identity",
+    "account_exists": "Already have account ?",
     "initializing_text": "initializing fortress",
+    "login_with_phone": "Enter a phone number you signed up with. You may be required to verify this phone number.",
     "device_id_permission": "Fortress needs your device ID, in order to protect your account from unauthorised access. ",
     "errors" : {
         "no_country": "No country selected or invalid selection.",
@@ -32,6 +34,7 @@
         "code_not_sent": "could not send the authentication token, please try again.",
         "invalid_code": "Attempted code is wrong.",
         "code_null": "Looks like code was not sent, please try again",
-        "confirmation_made": "Confirmation failed. Try again."
+        "confirmation_made": "Confirmation failed. Try again.",
+        "user_not_found": "No account found with the entered phone number. Please check and try again or sign up a new account"
     }
 }

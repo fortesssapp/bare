@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { General } from "./general";
 import { LoaderModal } from "../components/Loader";
 import { ErrorModal } from "../components/Error";
+import { MessagingModal } from "../components/Messaging";
 import { Vibration } from "react-native";
 
 export const GeneralContextProvider = ({ children }) => {
@@ -15,6 +16,60 @@ export const GeneralContextProvider = ({ children }) => {
             title: title
         });
     }
+
+    
+
+    const [message, setMessage] = useState({
+        message: "",
+        show: false,
+        accept: () => null,
+        reject: () => null,
+        close: () => null,
+        positive: "Confirm",
+        negative: "Decline"
+    });
+
+    const closeMessage = () => {
+        setMessage({...message, show: false});
+    }
+
+
+
+
+    const showMessage = (
+        show=false, 
+        msg="", 
+        accept = () => null, 
+        reject = () => null,
+        positive = "Confirm",
+        negative = "Cancel"
+        ) => {
+        try {
+            if(show && message){
+                setMessage({
+                    ...message,
+                    show: show,
+                    message: msg,
+                    accept,
+                    reject,
+                    positive,
+                    negative,
+                    close: closeMessage
+                });
+            }else {
+                setMessage({
+                    ...message,
+                    show: false,
+                    message: ""
+                });
+            }
+        } catch (error) {
+            console.log(error);
+        }
+    }
+
+
+
     // male sure that when the loader chnages, the context reloads
     useEffect(() => {}, [loader]);
     // End handle loader
@@ -25,8 +80,10 @@ export const GeneralContextProvider = ({ children }) => {
     const [errorShown, setErrorShown] = useState(false);
     const ERRORTIMEOUT = 6000;
     useEffect(() => {
-        if(errorShown) setTimeout(() => {  setErrorShown(false); }, ERRORTIMEOUT);
-        console.log(errorShown, " yes it changed errorShown");
+        if(errorShown) setTimeout(() => {  
+            setErrorShown(false); 
+            setError(""); 
+        }, ERRORTIMEOUT);
     }, [errorShown]);
 
 
@@ -53,13 +110,16 @@ export const GeneralContextProvider = ({ children }) => {
               toggleLoader: toggleLoader,
               error: error,
               errorShown: errorShown,
-              showError: showError
+              showError: showError,
+              showMessage,
+              message
             }
         }
         >
         {children}
         <LoaderModal />
         <ErrorModal />
+        <MessagingModal />
        </General.Provider> 
     )
 }
