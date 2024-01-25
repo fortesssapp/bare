@@ -12,7 +12,7 @@ import { Users } from "../models/Users";
 
 export const ChatsScreen = ({ navigation, route }) => {
     const { current, change} = useContext(Theme);
-    const { toggleLoader } = useContext(General);
+    const { toggleLoader, showMessage } = useContext(General);
     const {auth} = useContext(User);
     const STYLES = useStyle();
     const inputRef      = useRef(null);
@@ -73,7 +73,9 @@ export const ChatsScreen = ({ navigation, route }) => {
                 <Fbutton
                     text="Press Me"
                     color={STYLES.mainButton.backgroundColor}
-                    onPress={() => console.log('Button Pressed')}
+                    onPress={() => {
+                        showMessage(true, "This is to confirm that the message is desirable");
+                    }}
                     onLongPress={() => console.log('Button Long Pressed')}
                     fluid
                 />

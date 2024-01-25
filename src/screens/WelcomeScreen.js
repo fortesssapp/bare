@@ -63,7 +63,7 @@ export const WelcomeScreen = ({ navigation, route }) => {
                                 text="Join Fortress"
                                 color={currentTheme.values.mainColor}
                                 onPress={() => navigation.navigate(routes.JOINCOUNTRY)}
-                                onLongPress={() => navigation.navigate(routes.JOINCOUNTRY)}
+                                onLongPress={() => null}
                                 fluid
                                 buttonStyle={{width: "100%"}}
                             />
@@ -74,7 +74,7 @@ export const WelcomeScreen = ({ navigation, route }) => {
                                 color={currentTheme.values.lightColor}
                                 textColor={currentTheme.values.currentColor}
                                 onPress={() => navigation.navigate(routes.SIGNIN)}
-                                onLongPress={() => console.log('Button Long Pressed')}
+                                onLongPress={() => null}
                                 fluid
                                 buttonStyle={{width: "100%"}}
                             />

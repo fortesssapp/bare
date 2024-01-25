@@ -2,7 +2,7 @@ import React, { useContext }  from "react";
 import { Modal, Dimensions, TouchableOpacity, StatusBar, Platform }    from "react-native";
 import { General }  from "../contexts/general";
 import { ErrorView } from "../assets/style/ErrorView";
-import { SafeAreaInsetsContext } from 'react-native-safe-area-context';
+import { SafeAreaInsetsContext } from "react-native-safe-area-context";
 
 
 export const ErrorModal = () => {
@@ -23,8 +23,12 @@ export const ErrorModal = () => {
                         position: "relative",
                         zIndex: 9999
                     }} onPress={() => showError(false, "")}>
-                    {errorShown&&<ErrorView error={error} topPadding={( Platform.OS === "android"? StatusBar.currentHeight: insets.top)} />}
-                </TouchableOpacity>
+                    <ErrorView 
+                        animate={errorShown}
+                        error={error} 
+                        topPadding={( Platform.OS === "android"? StatusBar.currentHeight: insets.top)} 
+                    />
+                    </TouchableOpacity>
                 )}
             </SafeAreaInsetsContext.Consumer>
         </Modal>

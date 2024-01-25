@@ -42,6 +42,7 @@ export default function useStyles(){
             height: 45,
             color: currentTheme.values.currentColor || 'black',
             fontFamily: currentTheme.values.fontRegular || fontFamily,
+            fontSize: currentTheme.values.fonts.large,
             ...styles.generalTextstyle
         },
         fortressInput: {
@@ -56,11 +57,14 @@ export default function useStyles(){
             ...styles.generalTextstyle
         },
         selectedContainer:{
-            padding: 10
+            paddingTop: 10,
+            paddingBottom: 10,
+            paddingRight: 10
         },
         selectedText: {
             ...styles.generalTextstyle,
-            fontSize: currentTheme.values.fonts.medium,
+            fontSize: 18,
+            fontFamily: currentTheme.values.fontRegular || fontFamily,
             color: styles.textColor
         },
         placeholders: {
