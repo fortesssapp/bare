@@ -1,30 +1,30 @@
-import React, { useMemo, useContext }       from 'react';
-import { Animated, View, TouchableOpacity } from 'react-native';
-import { AppIcon }                          from '../../assets/style/AppIcons';
-import { convertFirstLetter }               from '../../helpers/helpers';
-import useStyle from '../../assets/style/style';
-import { Theme } from '../../contexts/theme';
+import React, { useMemo, useContext } from "react";
+import { Animated, View, TouchableOpacity } from "react-native";
+import { AppIcon } from "../../assets/style/AppIcons";
+import { convertFirstLetter } from "../../helpers/helpers";
+import useStyle from "../../assets/style/style";
+import { Theme } from "../../contexts/theme";
 
-export const  HomeTabBar = ({ state, descriptors, navigation, position }) => {
-    const styles = useStyle();
-    const { currentTheme, current  } = useContext(Theme);
+export const HomeTabBar = ({ state, descriptors, navigation, position }) => {
+  const styles = useStyle();
+  const { currentTheme, current } = useContext(Theme);
 
   return (
-    <View style={{...styles.appHomeTapStyle}}>
+    <View style={{ ...styles.appHomeTapStyle }}>
       {state.routes.map((route, index) => {
         const { options } = descriptors[route.key];
         const label =
           options.tabBarLabel !== undefined
             ? options.tabBarLabel
             : options.title !== undefined
-            ? options.title
-            : route.name;
+              ? options.title
+              : route.name;
 
         const isFocused = state.index === index;
 
         const onPress = () => {
           const event = navigation.emit({
-            type: 'tabPress',
+            type: "tabPress",
             target: route.key,
             canPreventDefault: true,
           });
@@ -36,7 +36,7 @@ export const  HomeTabBar = ({ state, descriptors, navigation, position }) => {
 
         const onLongPress = () => {
           navigation.emit({
-            type: 'tabLongPress',
+            type: "tabLongPress",
             target: route.key,
           });
         };
@@ -44,21 +44,21 @@ export const  HomeTabBar = ({ state, descriptors, navigation, position }) => {
         const inputRange = state.routes.map((_, i) => i);
         const opacity = position.interpolate({
           inputRange,
-          outputRange: inputRange.map(i => (i === index ? 1 : 0.5)),
+          outputRange: inputRange.map((i) => (i === index ? 1 : 0.5)),
         });
 
         const printLabel = useMemo(() => {
-            switch(label.toLowerCase()){
-                case 'community':{
-                    return <AppIcon name='account-group' size={24} />
-                }
-                case 'ai':{
-                  return "Ask AI"
-                }
-                default: {
-                    return convertFirstLetter(label);
-                }
+          switch (label.toLowerCase()) {
+            case "community": {
+              return <AppIcon name="account-group" size={24} />;
             }
+            case "ai": {
+              return "Ask AI";
+            }
+            default: {
+              return convertFirstLetter(label);
+            }
+          }
         }, [label]);
 
         return (
@@ -70,23 +70,27 @@ export const  HomeTabBar = ({ state, descriptors, navigation, position }) => {
             testID={options.tabBarTestID}
             onPress={onPress}
             onLongPress={onLongPress}
-            style={{ 
-                flex: 1, 
-                paddingBottom: 5,
-                borderBottomWidth: 3, 
-                borderBottomColor: 
-                isFocused ? 
-                currentTheme.values.lightColor: 
-                (current === "dark"? currentTheme.values.currentBackground: currentTheme.values.mainColor) 
+            style={{
+              flex: 1,
+              paddingBottom: 5,
+              borderBottomWidth: 3,
+              borderBottomColor: isFocused
+                ? currentTheme.values.lightColor
+                : current === "dark"
+                  ? currentTheme.values.currentBackground
+                  : currentTheme.values.mainColor,
             }}
           >
-            <Animated.Text style={{ 
-                opacity, 
+            <Animated.Text
+              style={{
+                opacity,
                 ...styles.generalTextstyle,
                 color: currentTheme.values.lightColor,
                 textAlign: "center",
-                fontSize: 16
-                }}>
+                fontSize: 16,
+                fontWeight: "900"
+              }}
+            >
               {printLabel}
             </Animated.Text>
           </TouchableOpacity>
@@ -94,4 +98,4 @@ export const  HomeTabBar = ({ state, descriptors, navigation, position }) => {
       })}
     </View>
   );
-}
+};

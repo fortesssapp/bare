@@ -22,6 +22,12 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>$(CURRENT_PROJECT_VERSION)</string>
+  <key>NSPhotoLibraryUsageDescription</key>
+  <string>Fortress needs access to your device libraries to access existing photo resources if you choose to do so.</string>
+  <key>NSCameraUsageDescription</key>
+  <string>Fortress needs access to your device camera to help capture new shots if you choose to do so</string>
+  <key>NSMicrophoneUsageDescription</key>
+  <string>Fortress needs access to your microphone in order to record audio </string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>
