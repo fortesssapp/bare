@@ -1,0 +1,18 @@
+// ADD Contexts folder & create theme Context && user context
+// Test theme is the next step by creating the style
+// proceed to adding new font from chat GPT as instructed
+// create gmail and set up figma this has been done by whatsapp
+// generate safeareaview added next step is implementing routing and navigation structure
+
+// Attempt the icons implementation // done
+// Make fonts work by all means // done
+// Next step is adding drawer navigation feature // no need
+// Next step is Search menu meant for all different parts
+// Next is add the tab navigation feature // done
+// Next is add push notification // done
+// implement event handlers
+// app welcome screen  // done
+// app Icon // done
+// Create the settings file // done
+// implement system storage // done
+// Add firebase auth // done

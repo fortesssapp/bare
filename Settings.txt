@@ -1,0 +1,4 @@
+1. AI responce length
+2. Default theme
+3. Disable autocomplete in input fields
+4. Security Method

@@ -1,0 +1,9 @@
+// enable device check for android in cloud.google.com account  (Google Play Integrity)
+// use this for issues https://stackoverflow.com/questions/64952016/firebase-phone-authentication-is-not-working-on-android-real-device
+// Android app check set up 
+// https://firebase.google.com/docs/app-check/android/play-integrity-provider#project-setup
+// https://rnfirebase.io/
+// go to firestore in firebase condole and setup a database
+// make sure your datastore is in native mode do this in the cloud.google.console
+// enforce appcheck on your firestore
+// rewrite database rules to suite your desire
